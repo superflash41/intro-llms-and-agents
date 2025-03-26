@@ -22,7 +22,7 @@
 *.rubbercache
 rubber.cache
 
-*.tex
+# *.tex
 
 .vscode/
 .idea/

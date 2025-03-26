@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{graphicx}
+
+\newcommand{\answer}[1]{\textcolor{blue}{\textbf{#1}}} % for answers
+\newcommand{\college}{Pontificia Universidad Católica del Perú}
+\newcommand{\faculty}{Faculty of Science and Engineering}
+\newcommand{\courseTitle}{Intro to LLMs and Agents}
+\author{Saymon Nicho}
+\date{\today}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\courseTitle}
+\cfoot{\thepage}
+\setlength{\headheight}{14.5pt}
+
+\begin{document}
+
+    \include{title}
+    \input{questions}
+
+\end{document}
